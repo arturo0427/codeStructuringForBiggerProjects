@@ -1,0 +1,42 @@
+# Ignora archivos y directorios comunes
+
+# Archivos de configuración
+.env
+.config
+
+# Archivos de compilación y ejecución
+node_modules/
+build/
+dist/
+
+# Archivos de logs
+*.log
+logs/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE
+.vscode/
+.idea/
+
+# Archivos de testing
+coverage/
+test-results/
+
+# Archivos de documentación
+docs/
+
+# Archivos de datos
+data/
+
+# Archivos de dependencias
+package-lock.json
+yarn.lock
+
+# Otros archivos
+*.tmp
+*.bak
+*.swp
+*.swo
